@@ -1,5 +1,6 @@
 # Responsive Gallery website
-In the words of my mentor
+# [LIVE WEBSITE](https://frostdev7506.github.io)
+## In the words of my mentor
 > Geting the basics right is of paramount importance.
 
 This is a gallery/portfolio website that is coded without using any thirdparty libraries just pure **HTML , CSS**  and **JS**
