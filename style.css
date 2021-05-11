@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
+/* 
+
+
+
+
+*/
+
+/* Root Styling */
+
+:root {
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --secondary: #adb5bd;
+  --primary-color: red;
+  --secondary_color: #2ec4b6;
+  --border: #e9ecef;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+* > * {
+  box-sizing: border-box;
+}
+
+/* Global Styling */
+.text-light {
+  color: var(--light);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-dark {
+  color: var(--dark);
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.bg-light {
+  color: var(--light);
+}
+.container {
+  max-width: 1200px;
+  padding: 0 12px;
+  margin: auto;
+}
+.img-fluid{
+  width: 100%;
+}
+
+text-title{
+  font-family: 'DM Sans',sans-serif;
+  font-weight: bold;
+}
+.secondary-title{
+  font-family: 'Poppins',sans-serif;
+
+}
+.display-1{
+font-size: 22px;
+}
+.display-2{
+  font-size: 16px;
+  }
+
+.display-3{
+    font-size: 14px;
+    }
+
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
+
+
+/* Section Styling */
+/* --------------- Navigation Menu --------------------- */
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-brand {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  align-self: center;
+  font-size: 32px;
+}
+
+.collapse {
+  align-self: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin: 12px;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.searchbox {
+  display: inline;
+  border-right: 1px solid var(--secondary);
+  padding-right: 12px;
+  margin-right: 10px;
+}
+
+.toggle-button {
+  font-size: 21px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  margin: 8px 10px;
+  display: none;
+}
+.toggle-button:focus {
+  outline: none;
+}
+/* --------------- .Navigation Menu --------------------- */
+
+
+/* ----------------- Main Section ---------------------------- */
+#site-main{
+  margin-top: 8em;
+}
+#posts{
+  margin-bottom: 5em;
+}
+.grid{
+  margin: 0 auto;
+}
+
+.grid .grid-item{
+  width: calc(33.3333% - 20px);
+  margin-bottom: 3em;
+
+  
+}
+
+
+.hero-section .row .rowcontainer:focus,
+.hero-section .row .rowcontainer:hover{
+  transform: scale(1.5);
+  z-index: 1;
+
+  }
+
+  .hero-section .row{
+    display: flex;
+}
+.hero-section{
+margin-top: 40px;
+font-family: "Poppins", sans-serif;
+margin-bottom: 70px;
+
+}
+
+.middle{
+  background-color: #343a40;
+  
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  
+}
+
+.middle .text{
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 16px 32px;
+
+
+}
+
+.rowcontainer{
+  width: 20%;
+  position: relative;
+  transition: transform 500ms;
+
+}
+
+.rowcontainer:hover .middle{
+  opacity: 1;
+  
+}
+
+.rowcontainer img{
+  width: 100%;
+  opacity: 1;
+  height: auto;
+  transition: 5s ease;
+}
+
+.footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  bottom: 0;
+  text-decoration-color: var(--primary-color);
+  font-size: 18px;
+  margin: 12px;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark);
+  width: 100%;
+}
+
+.footer:hover{
+  color: var(--primary-color);
+
+}
+
+/* ----------------- .Main Section ---------------------------- */
+
+/* Media Query (used for site responsiveness) */
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid .grid-item{
+    width: calc(50% - 20px);
+   
+    
+  }
+}
+
+@media (max-width: 574px) {
+  .toggle-button {
+    display: initial;
+  }
+
+  .collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s cubic-bezier(0.81, 0, 1, 1);
+   
+  }
+
+  .collapse .nav-link {
+    display: block;
+    text-align: center;
+  }
+  .searchbox {
+    border-right: none;
+  }
+
+  .collapse-toggle{
+      max-height: 500px;
+  }
+
+  .grid .grid-item{
+    width: calc(100% - 20px);
+   
+    
+  }
+}
