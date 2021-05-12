@@ -8,6 +8,8 @@ This is a gallery/portfolio website that is coded without using any thirdparty l
 ## Resources used
 [Font Awesome](https://fontawesome.com) for icons.
 
+[Google Fonts](https://fonts.google.com/) for custom fonts.
+
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/34231063/117845971-a3589300-b29e-11eb-8bbb-7556782e65dc.png)
