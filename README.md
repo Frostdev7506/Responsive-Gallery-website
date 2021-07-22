@@ -2,7 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/34231063/117936796-e6f4e080-b322-11eb-8a9c-d80035246b63.png)
 
-# [LIVE WEBSITE](https://frostdev7506.github.io)
+# [LIVE WEBSITE (Try it out) ](https://frostdev7506.github.io)
+
 ## In the words of my mentor
 > Geting the basics right is of paramount importance.
 
