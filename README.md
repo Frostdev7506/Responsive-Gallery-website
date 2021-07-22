@@ -14,19 +14,17 @@ This is a gallery/portfolio website that is coded without using any thirdparty l
 [Google Fonts](https://fonts.google.com/) for custom fonts.
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/34231063/126609630-73a523ff-4f9c-4d4f-8f2e-3838eda66c35.png)
 
-![image](https://user-images.githubusercontent.com/34231063/117845971-a3589300-b29e-11eb-8bbb-7556782e65dc.png)
+![image](https://user-images.githubusercontent.com/34231063/126609723-9d765676-986f-40bb-bc98-d019a5399571.png)
 
-![image](https://user-images.githubusercontent.com/34231063/117848274-c6844200-b2a0-11eb-8f94-77599ff916e3.png)
+![image](https://user-images.githubusercontent.com/34231063/126609804-a6a77edc-8a7d-45b3-8e47-c9e0c5f47c04.png)
 
-![image](https://user-images.githubusercontent.com/34231063/117848614-15ca7280-b2a1-11eb-8c7f-18200d835714.png)
+![image](https://user-images.githubusercontent.com/34231063/126609951-222ed841-8b00-42ef-bb45-3d55b98c8c6d.png)  
+
+![image](https://user-images.githubusercontent.com/34231063/126610053-26dafd55-838c-44f3-80d4-5aa5533fe4ec.png)
+
+![image](https://user-images.githubusercontent.com/34231063/126610119-b470bfd4-549f-4cc7-bdc2-fc760fe41335.png)
 
 
-![image](https://user-images.githubusercontent.com/34231063/117848371-ddc32f80-b2a0-11eb-97d5-bc7f9ea1d9d7.png)
-
-![image](https://user-images.githubusercontent.com/34231063/117848446-f3385980-b2a0-11eb-8594-07e40ec3cbdb.png)
-
-![image](https://user-images.githubusercontent.com/34231063/117848528-05b29300-b2a1-11eb-9a0c-d893042fad7c.png)
-
-![image](https://user-images.githubusercontent.com/34231063/117936514-9087a200-b322-11eb-9850-cb3af10901c5.png)
 
