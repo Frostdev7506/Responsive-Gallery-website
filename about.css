@@ -13,6 +13,11 @@ body{
     background-color: #f1f1f1;
 }
 
+.rowmargin {
+     
+     margin: 0 auto;
+}
+
 .about-section{
     background: url(images/pic.jpg) no-repeat left;
     background-size: 55%;
@@ -20,6 +25,10 @@ body{
     overflow: hidden;
     padding: 100px 0;
 }
+
+
+
+
 
 .inner-container{
     width: 55%;

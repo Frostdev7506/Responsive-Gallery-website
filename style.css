@@ -9,6 +9,8 @@
 /* Root Styling */
 
 :root {
+
+  color-scheme: dark;
   --light: #f8f9fa;
   --dark: #343a40;
   --light_or_dark: #f8f9fa;
@@ -32,6 +34,11 @@ body {
   margin: 0;
 
   background-color: var(--light_or_dark);
+
+  scrollbar-color: red yellow;
+
+
+  
 }
 
 a {
@@ -183,6 +190,14 @@ text-title {
   margin-bottom: 3em;
 }
 
+.rowmargin{
+ margin-top: 4em;
+ margin-left: 1em;
+ margin-right: 1em;
+}
+
+
+
 .hero-section .row .rowcontainer:focus,
 .hero-section .row .rowcontainer:hover {
   transform: scale(1.5);
@@ -308,6 +323,8 @@ text-title {
     width: 100%;
   }
 
+  
+
   .hero-section .row .rowcontainer:focus,
   .hero-section .row .rowcontainer:hover {
     transform: none;
@@ -321,3 +338,6 @@ text-title {
 }
 
 /* @media only screen and (max-width:800px) { }*/
+
+
+/* Change width and spacing */
